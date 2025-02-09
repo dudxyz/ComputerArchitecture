@@ -5,9 +5,7 @@ module fulladder(
     input b,
     input cin
 );
-    // fiz a descricao dataflow (mais simples)
-    assign {cin,s} = a+b;
 
-    // faz voce a descricao estrutural :)
+    assign {cin,s} = a+b;
 
 endmodule
